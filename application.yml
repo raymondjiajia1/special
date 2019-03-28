@@ -1,7 +1,7 @@
 spring:
     datasource:
         name: orcl
-        url: jdbc:mysql://47.99.210.15:3306/zpp_user?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowMultiQueries=true
+        url: '{cipher}1f6fee0c9b7d7bb5c2679dd5a88271123e86b560fe8780871f5c4b2573792c02ac963b485ac70ed9f77eeb5d5116ca75891d6ef57c0ae5efacfc25f800291f90fc1f23eb321550a05361bbb4efd35bb4a8a635a52bce1dcea652a9a9d06b0292e0144103832de66e841c4e27e7df153239cdd0f5b7fa0ba6991be6606ce5394205b4ec36334a3441919dc53886969dd2'
         username: '{cipher}1b7f169c19fab455cf73d900d8382f33e28b56d703f6208fab5959904e9a558b'
         password: '{cipher}a2683350092db83ed75607706bb47ad8e9142a9e1ec40976e3dfbd74ea142a5936af498f3d9b89c7772d0e266059d7eb'
         type: com.alibaba.druid.pool.DruidDataSource
@@ -21,12 +21,3 @@ spring:
         maxOpenPreparedStatements: 20
 mybatis:
   mapper-locations: classpath*:mapper/*.xml
-feign:
-  client:
-    config:
-      default:
-        connectTimeout: 20000
-        readTimeout: 20000
-        loggerLevel: basic
-feign.hystrix.enabled: true
-hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 20000
