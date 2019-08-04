@@ -1,7 +1,7 @@
 spring:
     datasource:
         name: orcl
-        url: jdbc:mysql://rm-wz9u8mn9sd6ur5q66mo.mysql.rds.aliyuncs.com:3306/zjc_log?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowMultiQueries=true
+        url: '{cipher}'2162238c82e870364cfd33829831fdf0d220173ac12717850c67d13904653647cab29fae6ee7034ff77cdf024805baa73fb581e837508c5378e8440eda943083de50e9a9cf1f004e9ecfadbf457b783dbc21ce34444f9c5bda77b212456546da2e4d4bd737e1b66902cbdcecb8e5920e7e90abc6d234f5bafd5c4e4bd2563b0af6d886157c30907e8369543590e2f086cc049ba8abb9eedf58349d5c88b0aa0712d91ce19e6d9895433ea5c629072c36
         username: '{cipher}58c6550d1032531584d319ecf56b06cb101ab2bf2fb97de992b8bb366f53865c'
         password: '{cipher}ca860a6a6e5fefb1c8bc13b3e711d07b09184eafdeb8e2a80b1343daf2815dca4498e2553da168ed7a3b64cb90a6245f'
         type: com.alibaba.druid.pool.DruidDataSource
